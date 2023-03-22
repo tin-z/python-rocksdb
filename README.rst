@@ -42,7 +42,7 @@ Quick install for debian/ubuntu like linux distributions.
     $ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}${LD_LIBRARY_PATH:+:}`pwd`/build/
     $ export LIBRARY_PATH=${LIBRARY_PATH}${LIBRARY_PATH:+:}`pwd`/build/
     $
-    $ apt-get install -y libsnappy-dev libbz2-dev liblz4-dev python3 python3-dev python3-pip build-essential
+    $ apt-get install -y libsnappy-dev libbz2-dev liblz4-dev python3 python3-dev python3-pip build-essential pkg-config
     $
     $ apt-get install python-virtualenv python-dev
     $ virtualenv pyrocks_test
