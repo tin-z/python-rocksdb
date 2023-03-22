@@ -41,9 +41,9 @@ Quick install for debian/ubuntu like linux distributions.
     $ export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}${CPLUS_INCLUDE_PATH:+:}`pwd`/include/
     $ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}${LD_LIBRARY_PATH:+:}`pwd`/build/
     $ export LIBRARY_PATH=${LIBRARY_PATH}${LIBRARY_PATH:+:}`pwd`/build/
-
-apt-get install -y libsnappy-dev libbz2-dev liblz4-dev
-
+    $
+    $ apt-get install -y libsnappy-dev libbz2-dev liblz4-dev
+    $
     $ apt-get install python-virtualenv python-dev
     $ virtualenv pyrocks_test
     $ cd pyrocks_test
